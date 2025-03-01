@@ -27,6 +27,8 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
+  padding: 0 15px 0 15px;
+  padding-left: 15px;
 }
 
 /* Картинки */
@@ -43,6 +45,8 @@ img {
   border-bottom: 1px solid #e7e9fc;
   /* Встановлено внутрішні відступи зліва та справа */
   padding: 0 15px;
+  padding: 0 15px 0 15px;
+  padding-right: 15px;
 }
 
 .header-container {
