@@ -4,91 +4,92 @@
 h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
-  }
-  
-  ul {
+}
+
+ul {
     list-style: none;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  /* Загальні стилі */
-  body {
+}
+
+/* Загальні стилі */
+body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     background-color: #f4f4f4;
     color: #333;
-  }
-  
-  /* Контейнер */
-  .container {
+}
+
+/* Контейнер */
+.container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     box-sizing: border-box;
-  }
-  
-  /* Зображення як блокові елементи */
-  img {
+}
+
+/* Зображення як блокові елементи */
+img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Хедер */
-  .header {
+}
+
+/* Хедер */
+.header {
     background-color: #333;
     color: white;
     border-bottom: 1px solid #e7e9fc;
-  }
-  
-  .header-container {
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 0;
-  }
-  
-  /* Навігація */
-  .nav {
+}
+
+/* Навігація */
+.nav {
     display: flex;
     align-items: center;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 1.5rem;
     margin-right: 76px;
     text-transform: lowercase;
-  }
-  
-  .menu {
+}
+
+.menu {
     display: flex;
     gap: 40px;
-  }
-  
-  .menu-link {
+}
+
+.menu-link {
     padding: 24px 0;
     font-size: 1.5rem;
     text-transform: lowercase;
-  }
-  
-  /* Контакти */
-  .contacts {
+}
+
+/* Контакти */
+.contacts {
     display: flex;
     gap: 40px;
     padding: 10px 0;
-  }
-  
-  .contact-link {
+}
+
+.contact-link {
     text-transform: lowercase;
-  }
-  
-  /* Утиліта для візуально прихованих елементів */
-  .visually-hidden {
+}
+
+/* Утиліта для візуально прихованих елементів */
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -98,28 +99,25 @@ h1, h2, h3, p, ul {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-  }
-  
-  /* Секції */
+}
 
-  
-  /* Hero-секція */
-  .hero {
+/* Hero-секція */
+.hero {
     background: #005f56;
     color: white;
     text-align: center;
     padding: 188px 0;
-  }
-  
-  .hero-title {
+}
+
+.hero-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .hero-button {
+}
+
+.hero-button {
     display: block;
     margin: 0 auto;
     min-width: 169px;
@@ -129,103 +127,109 @@ h1, h2, h3, p, ul {
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
-  }
-  
-  /* Services-секція */
-  .services {
+}
+
+/* Services-секція */
+.services {
     padding: 120px 0;
-  }
-  
-  .services-list {
+}
+
+.services-list {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-  }
-  
-  .services-item {
+}
+
+.services-item {
     flex: 1;
-    /* Розрахунок ширини: від загальної ширини віднімаємо 3 * 24px (72px) і ділимо на 4 */
     width: calc((100% - 72px) / 4);
     background-color: white;
     border: 1px solid #ddd;
     border-bottom: 2px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .services-title {
+}
+
+.services-title {
     margin-bottom: 8px;
     text-transform: lowercase;
     font-size: 1.5rem;
-  }
-  
-  .services-desc {
+}
+
+.services-desc {
     font-size: 1rem;
     line-height: 1.5;
-  }
-  
-  /* Team-секція */
-  .team {
+}
+
+/* Team-секція */
+.team {
     padding: 120px 0;
-  }
-  
-  .team-title {
+}
+
+.team-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 72px;
     text-transform: lowercase;
-  }
-  
-  .team-list {
+}
+
+.team-list {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-  }
-  
-  .team-item {
+}
+
+.team-item {
     width: calc((100% - 72px) / 4);
     text-align: center;
-  }
-  
-  .team-info {
+}
+
+.team-info {
     padding: 32px 0;
-  }
-  
-  .team-name {
+}
+
+.team-name {
     text-align: center;
     margin-bottom: 8px;
     text-transform: lowercase;
     font-size: 1.25rem;
-  }
-  
-  .team-role {
+}
+
+.team-role {
     text-align: center;
     font-size: 1rem;
     color: #777;
     text-transform: lowercase;
-  }
-  
-  /* Portfolio-секція */
-  .portfolio {
+}
+
+.team-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/* Portfolio-секція */
+.portfolio {
     padding: 120px 0;
-  }
-  
-  .portfolio-title {
+}
+
+.portfolio-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 72px;
     text-transform: lowercase;
-  }
-  
-  .portfolio-list {
+}
+
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     justify-content: space-between;
-  }
-  
-  .portfolio-item {
+}
+
+.portfolio-item {
     width: calc((100% - 48px) / 3);
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -233,44 +237,43 @@ h1, h2, h3, p, ul {
     border-radius: 0 0 4px 4px;
     box-sizing: border-box;
     overflow: hidden;
-  }
-  
-  .portfolio-info {
+}
+
+.portfolio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     text-align: center;
-  }
-  
-  .portfolio-name {
+}
+
+.portfolio-name {
     margin-bottom: 8px;
     text-transform: lowercase;
     font-size: 1.5rem;
-  }
-  
-  .portfolio-category {
+}
+
+.portfolio-category {
     font-size: 1rem;
     text-transform: lowercase;
-  }
-  
-  /* Футер */
-  .footer {
+}
+
+/* Футер */
+.footer {
     background-color: #333;
     color: white;
     padding: 100px 0;
     text-align: center;
-  }
-  
-  .footer-link {
+}
+
+.footer-link {
     display: inline-block;
     margin-bottom: 16px;
     font-size: 1.5rem;
     text-transform: lowercase;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     font-size: 1rem;
     max-width: 264px;
     margin: 0 auto;
-  }
-  
+}
