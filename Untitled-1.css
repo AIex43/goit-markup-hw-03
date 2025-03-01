@@ -2,15 +2,18 @@
 h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
+    padding: 0 15px;
 }
 
 ul {
     list-style: none;
+    padding: 0 15px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    padding: 0 15px;
 }
 
 /* Загальні стилі */
@@ -21,6 +24,7 @@ body {
     color: #333;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Контейнер */
@@ -30,6 +34,7 @@ body {
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Хедер */
@@ -39,6 +44,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .header-container {
@@ -47,7 +53,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; 
+    padding: 0 15px;
 }
 
 /* Навігація */
@@ -56,6 +63,7 @@ body {
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .logo {
@@ -64,6 +72,7 @@ body {
     text-transform: lowercase;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .menu {
@@ -71,6 +80,7 @@ body {
     gap: 40px;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .menu-link {
@@ -79,6 +89,7 @@ body {
     text-transform: lowercase;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Контакти */
@@ -88,12 +99,14 @@ body {
     padding: 10px 0;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .contact-link {
     text-transform: lowercase;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Прихований заголовок */
@@ -102,6 +115,7 @@ body {
     transform: scale(0);
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Services-секція */
@@ -109,6 +123,7 @@ body {
     padding: 120px 0;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .services-list {
@@ -117,6 +132,7 @@ body {
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .services-item {
@@ -129,6 +145,7 @@ body {
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .services-title {
@@ -137,6 +154,7 @@ body {
     font-size: 1.5rem;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .services-desc {
@@ -144,6 +162,7 @@ body {
     line-height: 1.5;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 /* Футер */
@@ -154,6 +173,7 @@ body {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .footer-link {
@@ -163,6 +183,7 @@ body {
     text-transform: lowercase;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 .footer-text {
@@ -171,6 +192,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0 15px;
 }
 
 
