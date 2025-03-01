@@ -33,10 +33,15 @@ body {
     background-color: #333;
     color: white;
     border-bottom: 1px solid #e7e9fc;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-container {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding-left: 15px;
     padding-right: 15px; 
 }
