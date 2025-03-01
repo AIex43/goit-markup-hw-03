@@ -36,12 +36,9 @@ body {
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
     padding-left: 15px;
-    padding-right: 15px; */
+    padding-right: 15px; 
 }
 
 /* Навігація */
