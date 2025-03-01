@@ -19,6 +19,8 @@ body {
     line-height: 1.5;
     background-color: #f4f4f4;
     color: #333;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Контейнер */
@@ -26,6 +28,8 @@ body {
     width: 1158px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Хедер */
@@ -43,30 +47,38 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 }
 
 /* Навігація */
 .nav {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
     font-size: 1.5rem;
     margin-right: 76px;
     text-transform: lowercase;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .menu {
     display: flex;
     gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .menu-link {
     padding: 24px 0;
     font-size: 1.5rem;
     text-transform: lowercase;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Контакти */
@@ -74,27 +86,37 @@ body {
     display: flex;
     gap: 40px;
     padding: 10px 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contact-link {
     text-transform: lowercase;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Прихований заголовок */
 .hidden-title {
     position: fixed;
     transform: scale(0);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Services-секція */
 .services {
     padding: 120px 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .services-list {
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .services-item {
@@ -105,17 +127,23 @@ body {
     border-bottom: 2px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .services-title {
     margin-bottom: 8px;
     text-transform: lowercase;
     font-size: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .services-desc {
     font-size: 1rem;
     line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Футер */
@@ -124,6 +152,8 @@ body {
     color: white;
     padding: 100px 0;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-link {
@@ -131,11 +161,16 @@ body {
     margin-bottom: 16px;
     font-size: 1.5rem;
     text-transform: lowercase;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-text {
     font-size: 1rem;
     max-width: 264px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 
