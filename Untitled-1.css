@@ -31,7 +31,7 @@ img {
   background-color: #333;
   color: white;
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px;
+  padding: 15px;
 }
 .header-container {
   display: flex;
