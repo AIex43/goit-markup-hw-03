@@ -1,128 +1,115 @@
-/* Базовий ресет */
 h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
-
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
-/* Для всіх зображень */
-img {
-  display: block;
-}
-
-/* Загальні стилі */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   background-color: #f4f4f4;
   color: #333;
 }
-
-/* Контейнер */
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   box-sizing: border-box;
 }
-
-/* Хедер */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .header {
   background-color: #333;
   color: white;
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
-
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 15px;
-  padding-right: 15px; 
+  padding: 20px 0;
 }
-
-/* Навігація */
 .nav {
   display: flex;
   align-items: center;
 }
-
 .logo {
   font-size: 1.5rem;
   margin-right: 76px;
   text-transform: lowercase;
 }
-
 .menu {
   display: flex;
   gap: 40px;
 }
-
 .menu-link {
   padding: 24px 0;
   font-size: 1.5rem;
   text-transform: lowercase;
 }
-
-/* Контакти */
 .contacts {
   display: flex;
   gap: 40px;
   padding: 10px 0;
 }
-
 .contact-link {
   text-transform: lowercase;
 }
-
-/* Прихований заголовок */
-.hidden-title {
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
   position: fixed;
   transform: scale(0);
 }
-
-/* Hero-секція */
 .hero {
+  background: #005f56;
+  color: white;
+  text-align: center;
   padding: 188px 0;
 }
-
 .hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .hero-button {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--button-color, #4d5ae5);
+  background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 auto;
+  font-size: 1rem;
 }
-
-/* Services-секція */
 .services {
   padding: 120px 0;
 }
-
 .services-list {
   display: flex;
   gap: 24px;
   justify-content: space-between;
 }
-
 .services-item {
   flex: 1;
   width: calc((100% - 72px) / 4);
@@ -132,28 +119,108 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-
 .services-title {
   margin-bottom: 8px;
   text-transform: lowercase;
   font-size: 1.5rem;
 }
-
 .services-desc {
   font-size: 1rem;
   line-height: 1.5;
 }
-
-/* Team-секція */
-/* (За бажанням можна додати додаткові стилі) */
-
-/* Portfolio-секція */
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.team {
+  padding: 120px 0;
 }
-
-.portfolio-title {
+.team-title {
+  text-align: center;
+  font-size: 2rem;
   margin-bottom: 72px;
+  text-transform: lowercase;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.team-item {
+  width: calc((100% - 72px) / 4);
+  text-align: center;
+}
+.team-info {
+  padding: 32px 0;
+}
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+  text-transform: lowercase;
+  font-size: 1.25rem;
+}
+.team-role {
+  text-align: center;
+  font-size: 1rem;
+  color: #777;
+  text-transform: lowercase;
+}
+.team-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.portfolio {
+  padding: 120px 0;
+}
+.portfolio-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 72px;
+  text-transform: lowercase;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: space-between;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-align: center;
+}
+.portfolio-name {
+  margin-bottom: 8px;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+.portfolio-category {
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+.footer-text {
+  font-size: 1rem;
+  max-width: 264px;
+  margin: 0 auto;
+}
