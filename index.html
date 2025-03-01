@@ -1,1 +1,159 @@
+/* Базовий ресет */
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Для всіх зображень */
+img {
+  display: block;
+}
+
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Контейнер */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Хедер */
+.header {
+  background-color: #333;
+  color: white;
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+/* Навігація */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: 76px;
+  text-transform: lowercase;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  padding: 24px 0;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+/* Контакти */
+.contacts {
+  display: flex;
+  gap: 40px;
+  padding: 10px 0;
+}
+
+.contact-link {
+  text-transform: lowercase;
+}
+
+/* Прихований заголовок */
+.hidden-title {
+  position: fixed;
+  transform: scale(0);
+}
+
+/* Hero-секція */
+.hero {
+  padding: 188px 0;
+}
+
+.hero-title {
+  max-width: 496px;
+}
+
+.hero-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--button-color, #4d5ae5);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/* Services-секція */
+.services {
+  padding: 120px 0;
+}
+
+.services-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.services-item {
+  flex: 1;
+  width: calc((100% - 72px) / 4);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.services-title {
+  margin-bottom: 8px;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.services-desc {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Team-секція */
+/* (За бажанням можна додати додаткові стилі) */
+
+/* Portfolio-секція */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
 
