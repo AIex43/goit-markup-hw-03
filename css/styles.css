@@ -1,4 +1,3 @@
-/* Скидання відступів */
 h1, h2, h3, p, ul {
   margin: 0;
   padding: 0px;
@@ -13,44 +12,30 @@ a {
   color: inherit;
 }
 
-/* Глобальні стилі */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  background-color: #f4f4f4;
-  color: #333;
-  /* Додано згідно вимог */
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
   background-color: #FFFFFF;
   color: #434455;
 }
 
-/* Контейнер */
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
-  padding: 0 15px 0 15px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-/* Картинки */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Хедер */
 .header {
   color: white;
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
-  padding: 0 15px 0 15px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .header-container {
@@ -66,11 +51,7 @@ img {
   align-items: center;
 }
 
-/* Оновлені стилі для логотипу */
 .logo {
-  font-size: 1.5rem;
-  margin-right: 76px;
-  /* Додано згідно вимог */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -78,15 +59,15 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-/* Стиль для тегу span у логотипі */
 .logo span,
 .logo-span {
   color: #2e2f42;
 }
 
-/* Для футера перевизначаємо колір span */
 .footer .logo span {
   color: #f4f4fd;
 }
@@ -98,9 +79,6 @@ img {
 
 .menu-link {
   padding: 24px 0;
-  font-size: 1.5rem;
-  display: block;
-  /* Додано згідно вимог */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -118,7 +96,6 @@ img {
   gap: 40px;
 }
 
-/* Оновлені стилі для контактних посилань */
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -131,12 +108,10 @@ img {
   color: #404bbf;
 }
 
-/* Оновлені стилі для address */
 .address {
   font-style: normal;
 }
 
-/* Прихований текст */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -150,28 +125,22 @@ img {
   overflow: hidden;
 }
 
-/* Перша секція (hero) */
 .hero {
-  background: #005f56;
+  background-color: #2e2f42;
   color: white;
   text-align: center;
   padding: 188px 0;
-  /* Перезапис згідно вимог */
-  background-color: #2e2f42;
 }
 
 .hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-  /* Додано згідно вимог */
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -183,8 +152,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 1rem;
-  /* Додано згідно вимог */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -198,7 +165,6 @@ img {
   background-color: #404BBF;
 }
 
-/* Друга секція (services) */
 .services {
   padding: 120px 0;
 }
@@ -216,11 +182,6 @@ img {
 
 .services-title {
   margin-bottom: 8px;
-
-
-  
-  font-size: 1.5rem;
-  /* Додано згідно вимог */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -229,34 +190,25 @@ img {
 }
 
 .services-desc {
-  font-size: 1rem;
-  line-height: 1.5;
-  /* Додано згідно вимог */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Третя секція (team) */
 .team {
   padding: 120px 0;
-  /* Додано згідно вимог */
   background-color: #F4F4FD;
 }
 
 .team-title {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 72px;
-
-  /* Додано згідно вимог */
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -270,7 +222,6 @@ img {
   text-align: center;
 }
 
-/* Для першого елемента списку встановлено border-radius */
 .team-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -286,101 +237,32 @@ img {
 
 .team-name {
   text-align: center;
-  margin-bottom: 8px;
-  font-size: 1.25rem;
-  /* Додано згідно вимог */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-role {
   text-align: center;
-  font-size: 1rem;
-  color: #777;
-  /* Додано згідно вимог */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Четверта секція (portfolio) */
-.portfolio {
-  padding: 120px 0;
-}
-
-.portfolio-title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 72px;
-  /* Додано згідно вимог */
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  justify-content: space-between;
-}
-
-.portfolio-item {
-  width: calc((100% - 48px) / 3);
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.portfolio-info {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  text-align: center;
-}
-
-.portfolio-name {
-  margin-bottom: 8px;
-  font-size: 1.5rem;
-  /* Додано згідно вимог */
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.portfolio-category {
-  font-size: 1rem;
-  /* Додано згідно вимог */
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Футер */
 .footer {
-  background-color: #333;
+  background-color: #2e2f42;
   color: white;
   padding: 100px 0;
-  /* Оновлено згідно вимог */
-  background-color: #2e2f42;
 }
 
 .footer-text {
-  font-size: 1rem;
-  max-width: 264px;
-  /* Додано згідно вимог */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
   padding: 25px 0;
 }
+
